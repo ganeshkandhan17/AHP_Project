@@ -43,6 +43,7 @@ body{
 .container-3{
     display:flex;
     justify-content: center;
+    align-items: baseline;
 }
 .input1, .input2, .input3, .input4{
     width :200px;
