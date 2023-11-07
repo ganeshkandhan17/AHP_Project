@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHP_Project</title>
+    <script src="index.css"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="center-1">
+        <div class="container">
+            <h1>Pascal Law</h1>
+        </div>
+    </div>
+    <div class="container-1">
+        <h2>Define</h2>
+        <h4>Pascal's law states that pressure exerted in a resting liquid is the same in all directions When external  pressure is applied to any section of a fluid enclosed in a vessel, it is transmitted in all directions undiminished and evenly</h4>
+        <h4 class="text-center">P = Pressure (N/m^2)</h4>
+        <h4 class="text-center">F = Force (N)</h4>
+        <h4 class="text-center">A = Area (m^2)</h4>
+    </div>
+    <div class="container-1">
+        <h2 class="text-center">Known Values</h2>
+        <div class="container-2">
+            <select name="Data1" class="input1">
+                <option id="p1" value="P">P (N/m^2)</option>
+                <option id="f1" value="F">F (N)</option>
+                <option id="a1" value="A">A (m^2)</option>
+            </select>
+            <select name="Data2" class="input2">
+                <option id="a2" value="A">A (m^2)</option>
+                <option id="p2" value="P">P (N/m^2)</option>
+                <option id="f2" value="F">F (N)</option>
+            </select>
+        </div>
+        <div class="container-2">
+            <input  style="margin-top: 15px; height: 33px; width: 195px;" class="input3" type="number" required>
+            <input  style="margin-top: 15px; height: 33px; width: 195px;" class="input4" type="number" required>
+        </div>
+        <div class="container-2">
+            <button class="button" onclick="calculate()">Calculate</button>
+        </div>
+        <div class="container-3">
+           <p>Answer</p><Input class="output" id="change" value="100" disabled></Input>
+        </div>
+    </div>
+    
+</body>
+</html>
