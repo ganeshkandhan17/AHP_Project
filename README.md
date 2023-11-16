@@ -27,5 +27,12 @@ P=F/A Simply input two known parameters, and let the app calculate the third.
   <li>JavaScript</li>
 </ul>
 
+<h3>📸 Screenshots:</h3>
+
+![image](https://github.com/ganeshkandhan17/AHP_Project/assets/87404827/cc73f063-ff97-4e98-9e05-4e4724088170)
+
+![image](https://github.com/ganeshkandhan17/AHP_Project/assets/87404827/aa1e6ecd-c875-43d6-9b22-a6f6ed5b62ba)
+
+
 
 
